@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#gameContainer {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #000000; /* Cor de fundo do contêiner */
+    cursor: no;
+}
+
+#capivara {
+    image-rendering:  pixelated;
+    position: absolute;
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+#pasoca {
+    position: absolute;
+    width: 30px; /* Ajuste conforme necessário */
+    height: auto;
+    display: none; /* Inicialmente oculto */
+}
